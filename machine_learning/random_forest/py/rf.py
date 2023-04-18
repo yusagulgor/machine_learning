@@ -3,10 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.ensemble import RandomForestRegressor # sınıflandırma prob çözmediğim için regres
 
-data = pd.read_csv(r'C:\Users\Yusa\Desktop\machine_learning\random_forest\data\rf.csv')
+data = pd.read_csv(r'...\machine_learning\random_forest\data\rf.csv')
 
-x=data.iloc[:,0].values.reshape(-1,1)
-y=data.iloc[:,1].values.reshape(-1,1)
+x=data.iloc[:,0].values.reshape(-1,1) # type: ignore
+y=data.iloc[:,1].values.reshape(-1,1) # type: ignore
 
 rf = RandomForestRegressor(n_estimators=100,random_state=40) # 10 kaç ağaç daha fazla basamak  
 

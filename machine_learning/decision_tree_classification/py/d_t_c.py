@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix #score nin daha isabetli ve anlamlı olabilmesi için 
 
-data = pd.read_csv(r'C:\Users\Yusa\Desktop\machine_learning\decision_tree_classification\data\d_t_c.csv')
+data = pd.read_csv(r'...\machine_learning\decision_tree_classification\data\d_t_c.csv')
 print(data.head())
 M = data[data.diagnosis == 'M']
 B = data[data.diagnosis == 'B']

@@ -12,7 +12,7 @@ import sklearn.model_selection as ms
 import sklearn.metrics as mt 
 
 
-data = pd.read_csv(r'C:\Users\Yusa\Desktop\machine_learning\linear\data\data_min.csv')
+data = pd.read_csv(r'...\machine_learning\linear\data\data_min.csv')
 '''
 m = data.describe()
 print(m)'''

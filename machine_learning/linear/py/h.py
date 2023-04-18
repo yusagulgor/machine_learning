@@ -1,7 +1,7 @@
 import pandas as pd 
 from sklearn.tree import DecisionTreeRegressor
 
-data = pd.read_csv(r'C:\Users\Yusa\Desktop\machine_learning\linear\data\h.csv')
+data = pd.read_csv(r'...\machine_learning\linear\data\h.csv')
 # m = data.columns
 # print(m)
 l = data.dropna(axis = 0)

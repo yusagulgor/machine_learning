@@ -6,7 +6,7 @@ import sklearn.model_selection as ms
 import sklearn.metrics as mt 
 
 
-data = pd.read_csv(r'C:\Users\Yusa\Desktop\machine_learning\linear\data\data_multi.csv')
+data = pd.read_csv(r'...\machine_learning\linear\data\data_multi.csv')
 
 deneyim_yas = data.loc[:,['deneyim','yas']].values
 maas = data['maas'].values.reshape(-1,1)  # type: ignore
